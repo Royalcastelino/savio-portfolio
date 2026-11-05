@@ -1,0 +1,22 @@
+.stroke-text {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: 1;
+  max-width: 100%;
+  font-family:monospace;
+}
+
+.stroke-text--hover {
+  cursor: pointer;
+}
+
+.stroke-text__svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.stroke-text__stroke,
+.stroke-text__fill {
+  user-select: none;
+}

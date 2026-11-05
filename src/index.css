@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+/* Roboto utility */
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Tailwind v4: class-based dark mode — toggles when .dark is on <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Smooth scroll for anchor nav links */
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
